@@ -10,7 +10,7 @@ This repository provides the training and inference code for the Attention U-Net
 | Ocean | 0.00577 | 0.00491 | 14.87% |
 | Entire study region | 0.01298 | 0.01133 | 12.73% |
 
-Candidate predictors included pressure-level atmospheric variables, surface meteorological variables, and elevation. Predictor selection indicated that using only **10-m wind speed and elevation** preserved model performance (Supplementary Figure S11e). These two predictors and the Attention U-Net architecture form the final model configuration.
+
 
 ## Evaluation
 
