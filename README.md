@@ -4,11 +4,6 @@
 
 This repository provides the training and inference code for the Attention U-Net wind-downscaling model used in our study. The model maps ERA5 wind data at approximately 25-km resolution to 5-km wind-speed fields over the Guangdong–Hong Kong–Macao Greater Bay Area (GBA).
 
-| Domain | Swin U-Net mean MSE | Attention U-Net mean MSE | MSE reduction |
-| --- | ---: | ---: | ---: |
-| Land | 0.02020 | 0.01775 | 12.12% |
-| Ocean | 0.00577 | 0.00491 | 14.87% |
-| Entire study region | 0.01298 | 0.01133 | 12.73% |
 
 
 
