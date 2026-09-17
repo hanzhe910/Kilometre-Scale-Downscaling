@@ -4,19 +4,6 @@
 
 This repository provides the training and inference code for the Attention U-Net wind-downscaling model used in our study. The model maps ERA5 wind data at approximately 25-km resolution to 5-km wind-speed fields over the Guangdong–Hong Kong–Macao Greater Bay Area (GBA).
 
-## Overview
-
-The downscaling model is a component of a multi-sector framework for assessing the implications of future wind changes for coastal infrastructure, wind energy, tropical-cyclone-like exposure, and air pollution.
-
-ERA5 provides the intermediate-resolution data used to develop the model. The trained model is subsequently applied to bias-corrected CMIP6 inputs prepared for the downscaling workflow.
-
-The workflow consists of three main steps:
-
-1. Prepare wind-speed inputs, elevation data, and the 5-km fusion reference dataset.
-2. Train the Attention U-Net to learn the relationship between the input fields and the reference wind-speed fields.
-3. Apply the trained model to generate 5-km wind-speed fields.
-
-
 | Domain | Swin U-Net mean MSE | Attention U-Net mean MSE | MSE reduction |
 | --- | ---: | ---: | ---: |
 | Land | 0.02020 | 0.01775 | 12.12% |
