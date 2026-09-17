@@ -22,9 +22,4 @@ $$
 
 Here, $S_n$ and $O_n$ are the predicted and reference wind speeds at grid cell $n$, and $N$ is the number of valid grid cells within the evaluation domain for a given test day.
 
-Supplementary Figure S11a–c presents the domain-specific evaluation, including seasonal performance and assessments under strong-wind and typhoon conditions. The manuscript also examines performance across different elevation classes.
-
-## Using the Code
-
-
-For application to CMIP6 projections, prepare the bias-corrected climate-model inputs as described in the manuscript before running inference.
+Supplementary Figure S11a–c presents the domain-specific evaluation, including seasonal performance and assessments under strong-wind and typhoon conditions. 
